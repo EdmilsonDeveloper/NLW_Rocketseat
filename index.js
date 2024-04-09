@@ -103,9 +103,7 @@ const atualizarLista = (participantes) => {
   }
 
   // substituir informação do HTML
-  document
-  .querySelector('tbody')
-  .innerHTML = output
+  document.querySelector('tbody').innerHTML = output
 }
 
 atualizarLista(participantes)
